@@ -40,6 +40,21 @@ function verificarIdade(idade, Nome) { // maior ou menor de idade
 }
 verificarIdade(20, 'João');  // maior de idade
 
+let fruta = "maçã"; // exemplo de switch
+switch (fruta) { 
+    case "banana":
+        console.log("A fruta é banana." + fruta);
+        break;
+    case "amora":
+        console.log("A fruta é amora." + fruta);
+        break;
+    case "manga":
+        console.log("A fruta é maçã."+ fruta);
+        break;
+    default:
+        console.log("Fruta não encontrada.");
+        break;
+}
 
 // verificacões / ou opracões
 // = recebe
@@ -57,7 +72,7 @@ verificarIdade(20, 'João');  // maior de idade
 // ? ternario
 // ++ incremento
 // -- decremento
- 
+
 if (!true) { // negação
     console.log('Caiu no if');
 } else {
